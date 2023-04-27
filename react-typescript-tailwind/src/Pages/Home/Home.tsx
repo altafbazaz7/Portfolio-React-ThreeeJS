@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="flex-column justify-center items-center h-screen w-screen bg-gray-800 text-center">
-        <h3 className="text-white text-9xl pt-5">
+        <h3 className="text-white text-6xl pt-5">
           <Typewriter
             words={words}
             loop
