@@ -6,6 +6,7 @@ import ProjectPage from "./Pages/Projects/Projects";
 import Projects from "./Pages/Projects/Projects";
 import Academics from "./Pages/Academics/Academics";
 import Skills from "./Pages/Skills/Skills";
+import Contact from "./Pages/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
               <Route path="/About" element={<About />} />
               <Route path="/Academics" element={<Academics />} />
               <Route path="/Skills" element={<Skills />} />
+              <Route path="/Contact" element={<Contact />} />
+
 
 
 

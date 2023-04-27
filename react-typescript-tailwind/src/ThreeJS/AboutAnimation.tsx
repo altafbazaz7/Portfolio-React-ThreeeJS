@@ -37,7 +37,7 @@ scene.add(sphere);
 
     // Create a new renderer and append it to the container
     const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, 510);
+    renderer.setSize(window.innerWidth, 600);
     containerRef.current?.appendChild(renderer.domElement);
 
     // Animate the sphere rotation
