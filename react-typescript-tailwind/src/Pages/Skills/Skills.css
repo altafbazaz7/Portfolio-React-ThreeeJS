@@ -1,0 +1,58 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: inherit; /* Set the background color to inherit from the parent element (body) */
+  }
+  
+  
+  .icon {
+    position: relative;
+    font-size: 8rem;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .html {
+    color: orange;
+  }
+  
+  .css {
+    color: blue;
+  }
+  
+  .js {
+    color: yellow;
+  }
+  
+  .node {
+    color: green;
+  }
+  
+  .react {
+    color: cyan;
+  }
+  
+  .aws {
+    color: #ff9900;
+  }
+  
+  .express {
+    color: #1a1a1a;
+  }
+  
+  .mongodb {
+    color: #13aa52;
+  }
+  
+  .mysql {
+    color: "#f29111";
+  }
+  
+  .typescript {
+    color: #007acc;
+  }
+  
+
+  
