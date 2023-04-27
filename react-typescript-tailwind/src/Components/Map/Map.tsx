@@ -16,7 +16,7 @@ const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 function Map() {
   return (
     <LoadScript
-      googleMapsApiKey={apiKey}
+      googleMapsApiKey={apiKey as any}
     >
       <GoogleMap
         mapContainerStyle={containerStyle}
