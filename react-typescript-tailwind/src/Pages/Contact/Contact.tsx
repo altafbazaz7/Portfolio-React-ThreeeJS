@@ -6,7 +6,8 @@ const Contact = () => {
     const [words, setWords] = useState([
         'Phone -> +91-7006026155',
         'Email -> arslaanaftaab7@gmail.com',
-        'LinkedIn -> https://linkedin.com/mohammadaltafbazaz'
+        'LinkedIn -> https://linkedin.com/mohammadaltafbazaz',
+        'Ping Me :)'
       ]);
   return (
 <div className="flex flex-col">
