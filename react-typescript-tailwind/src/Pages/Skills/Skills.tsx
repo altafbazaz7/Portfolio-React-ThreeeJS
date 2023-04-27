@@ -54,7 +54,6 @@ const Skills = () => {
       <FaJsSquare className="icon js" />
       <SiTypescript className="icon typescript" />
       <FaReact className="icon react" />
-
       <DiNodejs className="icon node" />
       <SiExpress className="icon express" />
       <SiMongodb className="icon mongodb" />
